@@ -238,3 +238,188 @@ footer img{
     75% { height: 3.5vh;}
     100% { height: 3vh; }
   }
+
+
+  @media (max-width: 321px){
+      body{
+          width: 320px;
+      }
+    .logo{
+        height: 3vh;
+    }
+    .home{
+        padding-left: 4vh;
+        font-size: 1.5vh;
+        font-weight: 700;
+        color: #fff;
+    }
+    span{
+        font-size: 1.3vh;
+        padding-left: 4vh;
+    }
+    .withLogo{
+        padding: 2.5vh;
+        height: 40vh;
+    }
+    .withLogo h1{
+        padding: 15vh 0 0 0;
+        font-size: 4.5vh;
+        width: 45vh;
+    }
+    .withLogo p{
+        padding: 10vh 0 0 0;
+        font-size: 3vh;
+        width: 45vh;
+    }
+    .withLogo p img{
+        height: 3vh;
+    }
+    .people{
+        display: none;
+    }
+    .scroll{
+        padding: 30vh 0 10vh 5vh;
+    }
+    #images{
+        padding: 10vh 0 10vh;
+    }
+    .idea{
+        display: flex;
+        flex-direction: column;
+        padding: 0 5vh 10vh 5vh;
+    }
+    .idea h1{
+        font-size: 4vh;
+        width: 40vh;
+        padding: 0 0 5vh 0;
+    }
+    .idea p{
+        font-size: 2.5vh;
+        width: 40vh;
+        line-height: 4vh;
+    }
+    .idea h1 img{
+        height: 4vh;
+    }
+    .after{
+        font-size: 4vh;
+        padding: 0 5vh 10vh 5vh;
+        width: 40vh;
+        text-align: center;
+    }
+    .fourSector{
+        display: flex;
+        padding: 0 5vh 10vh 10vh;
+        flex-direction: column;
+    }
+    .fourSector div{
+        width: 35vh;
+    }
+    .fourSector h2{
+        font-size: 3vh;
+    }
+    .ready{
+        text-align: center;
+        width: 50vh;
+    }
+    .ready h1{
+        font-size: 6vh;
+        padding-bottom: 10vh;
+    }
+    .ready p{
+        font-size: 3vh;
+        padding: 0 50vh 20vh;
+        line-height: 5vh;
+    }
+    .make{
+        margin: 0 20vh 20vh;
+    }
+    .make section{
+        padding-bottom: 15vh;
+        margin-bottom: 20vh;
+    }
+    .first{
+        background: url(../img/step01.png) left/contain no-repeat;
+    }
+    .second{
+        background: url(../img/step02.png) right/contain no-repeat;
+    }
+    .third{
+        background: url(../img/step03.png) left/contain no-repeat;
+    }
+    .fourth{
+        background: url(../img/step04.png) right/contain no-repeat;
+    }
+    .first div, .third div{
+        padding-left: 50%;
+    }
+    .second div, .fourth div{
+        padding-right: 50%;
+    }
+    .make h1{
+        color: #dddddd;
+        font-size: 10vh;
+        padding-bottom: 7vh;
+    }
+    .make img{
+        height: 6vh;
+        padding-bottom: 3vh;
+    }
+    .make p, .make h2{
+        font-size: 2.5vh;
+        line-height: 5vh;
+    }
+    .subscribe{
+        text-align: center;
+    }
+    .subscribe h1{
+        font-size: 8vh;
+        padding-bottom: 5vh;
+    }
+    .subscribe p{
+        font-size: 3vh;
+        padding-bottom: 5vh;
+    }
+    input[type=email]{
+        width: 80vh;
+        height: 8vh;
+        border-radius: 10px;
+        border: 1px solid #fff;
+        box-shadow: 0 0 15px #dddddd;
+        font-size: 3vh;
+        text-align: center;
+        color: #dddddd;
+        margin-bottom: 5vh;
+    }
+    input[type=button]{
+        background-color: #ff3571 ;
+        padding: 3vh 12vh;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 2.5vh;
+        margin-bottom: 15vh;
+    }
+    input[type=button]:hover{
+        background-image: linear-gradient(to right,#ff3571, #3C30FF);
+    }
+    footer{
+        padding: 0 0 5vh 20vh;
+    }
+    footer p{
+        font-size: 2.3vh;
+        display: inline;
+        line-height: 7vh;
+    }
+    footer img{
+        height: 3vh;
+        padding-left: 2vh;
+        animation: example 1s ease infinite;
+    }
+    @keyframes example {
+        0% { height: 3vh; }
+        40% { height: 3.5vh; }
+        60% { height: 3.2vh;}
+        75% { height: 3.5vh;}
+        100% { height: 3vh; }
+      }
+  }
