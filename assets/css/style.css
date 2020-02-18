@@ -167,10 +167,10 @@ span{
     background: url(../img/step04.png) right/contain no-repeat;
 }
 .first div, .third div{
-    padding-left: 50%;
+    padding-left: 60%;
 }
 .second div, .fourth div{
-    padding-right: 50%;
+    padding-right: 60%;
 }
 .make h1{
     color: #dddddd;
